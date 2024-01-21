@@ -1,6 +1,5 @@
 import { Subjects } from "./subjects";
 
-//Adding ticket updated: Fix
 export interface TicketUpdtatedEvent {
   subject: Subjects.TicketUpdtated
   data : {
